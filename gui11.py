@@ -102,7 +102,7 @@ class ChatInterface(Frame):
         self.last_sent_label(date="No messages sent.")
         
 
-    def playResponce(self,responce):
+    '''def playResponce(self,responce):
         x=pyttsx3.init()
         #print(responce)
         li = []
@@ -114,7 +114,7 @@ class ChatInterface(Frame):
         x.setProperty('rate',120)
         x.setProperty('volume',100)
         x.say(responce)
-        x.runAndWait()
+        x.runAndWait()'''
         
         
     def last_sent_label(self, date):
