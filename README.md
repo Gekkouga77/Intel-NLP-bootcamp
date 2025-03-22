@@ -17,7 +17,6 @@ AstroBot is a simple chatbot designed to answer queries about the solar system. 
 - **TfidfVectorizer**: For text vectorization and cosine similarity calculations.
 - **BeautifulSoup**: For web scraping Wikipedia to gather information about celestial bodies.
 - **Tkinter**: For building the graphical user interface (GUI).
-- **pyttsx3**: For text-to-speech functionality.
 
 ## Installation
 
