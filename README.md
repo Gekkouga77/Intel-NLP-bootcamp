@@ -27,11 +27,13 @@ To run AstroBot on your local machine, follow these steps:
    git clone https://github.com/your-username/AstroBot.git
    cd AstroBot
 2. **Install Dependencies**:
-Make sure you have Python 3.7+ installed. Then, install the required libraries using pip:
+Make sure you have Python 3.7+ installed.
+Then, install the required libraries using pip:
    ```bash
    pip install nltk beautifulsoup4 requests
-3. **Download NLTK Data**:
-You need to download the necessary NLTK data packages. Run the following commands in a Python shell:
+4. **Download NLTK Data**:
+You need to download the necessary NLTK data packages.
+Run the following commands in a Python shell:
    ```bash
    python
    Copy
@@ -39,7 +41,7 @@ You need to download the necessary NLTK data packages. Run the following command
    nltk.download('punkt')
    nltk.download('wordnet')
    nltk.download('stopwords')
-4. **Run the Chatbot**:
+5. **Run the Chatbot**:
 Execute the gui11.py script to start the chatbot:
    ```bash
    python gui11.py
